@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.ejercicioclase.ui.theme.ui.theme.EjercicioClaseTheme
+import com.example.ejercicioclase.ui.theme.EjercicioClaseTheme
 
 class Productos : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
