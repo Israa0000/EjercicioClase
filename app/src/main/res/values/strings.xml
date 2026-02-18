@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EjercicioClase</string>
+    <string name="title_activity_mascot">Mascot</string>
+    <string name="title_activity_pasarela_pago">PasarelaPago</string>
+    <string name="title_activity_partidos_liga">PartidosLiga</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_configuracion">Configuracion</string>
+    <string name="title_activity_productos">Productos</string>
+    <string name="title_activity_home">Home</string>
+</resources>
