@@ -19,29 +19,8 @@ class Productos : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             EjercicioClaseTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting5(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+
             }
         }
-    }
-}
-
-@Composable
-fun Greeting5(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview5() {
-    EjercicioClaseTheme {
-        Greeting5("Android")
     }
 }

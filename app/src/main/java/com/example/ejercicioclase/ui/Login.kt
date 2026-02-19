@@ -19,29 +19,8 @@ class Login : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             EjercicioClaseTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting3(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+
             }
         }
-    }
-}
-
-@Composable
-fun Greeting3(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview3() {
-    EjercicioClaseTheme {
-        Greeting3("Android")
     }
 }
