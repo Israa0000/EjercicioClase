@@ -11,44 +11,61 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EjercicioClase">
+
         <activity
-            android:name=".ui.theme.Productos"
+            android:name="ui.ProfileScreen"
+            android:exported="false"
+            android:label="@string/title_activity_profile_screen"
+            android:theme="@style/Theme.EjercicioClase" />
+
+        <activity
+            android:name=".ui.Recursos"
+            android:exported="false"
+            android:label="@string/title_activity_recursos"
+            android:theme="@style/Theme.EjercicioClase" />
+        <activity
+            android:name=".ui.ProductsView"
+            android:exported="false"
+            android:label="@string/title_activity_products_view"
+            android:theme="@style/Theme.EjercicioClase" />
+        <activity
+            android:name=".ui.Productos"
             android:exported="false"
             android:label="@string/title_activity_productos"
             android:theme="@style/Theme.EjercicioClase" />
         <activity
-            android:name=".ui.theme.Configuracion"
+            android:name=".ui.Configuracion"
             android:exported="false"
             android:label="@string/title_activity_configuracion"
             android:theme="@style/Theme.EjercicioClase" />
         <activity
-            android:name=".ui.theme.Login"
+            android:name=".ui.Login"
             android:exported="false"
             android:label="@string/title_activity_login"
             android:theme="@style/Theme.EjercicioClase" />
         <activity
-            android:name=".ui.theme.PartidosLiga"
+            android:name=".ui.PartidosLiga"
             android:exported="false"
             android:label="@string/title_activity_partidos_liga"
             android:theme="@style/Theme.EjercicioClase" />
         <activity
-            android:name=".ui.theme.PasarelaPago"
+            android:name=".ui.PasarelaPago"
             android:exported="false"
             android:label="@string/title_activity_pasarela_pago"
             android:theme="@style/Theme.EjercicioClase" />
         <activity
-            android:name=".ui.theme.Mascot"
+            android:name=".ui.Mascot"
             android:exported="false"
             android:label="@string/title_activity_mascot"
             android:theme="@style/Theme.EjercicioClase" />
+
         <activity
-            android:name=".ui.theme.Splash"
+            android:name=".ui.Splash"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.EjercicioClase">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

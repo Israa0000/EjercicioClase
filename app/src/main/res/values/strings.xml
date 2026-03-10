@@ -7,4 +7,7 @@
     <string name="title_activity_configuracion">Configuracion</string>
     <string name="title_activity_productos">Productos</string>
     <string name="title_activity_home">Home</string>
+    <string name="title_activity_products_view">ProductsView</string>
+    <string name="title_activity_recursos">Recursos</string>
+    <string name="title_activity_profile_screen">ProfileScreen</string>
 </resources>
